@@ -1,8 +1,8 @@
 /**
- *    ========== Mandelbrot Fractal Zoomer ==========
- * Render Mandelbrot fractal zooms like the ones you see on 
- * YouTube! Just give rendering parameters to the program,
- * and it will start rendering your Mandelbrot movie!
+ *    ========== Mandelbrot Fractal Renderer ==========
+ * A command-line utility for rendering the Mandelbrot set.
+ * 
+ * Author: bambamboo15
  */
 #include "./mandelbrot.hpp"
 #include "./base.hpp"
@@ -256,10 +256,8 @@ MANDELBROT_INLINE static void calculate_frame(
 	}
 }
 
-// The below passage is about optimizations for rendering Mandelbrot zooms.
-//
-// Now, rendering Mandelbrot fractals can take time. However, there are 
-// two rendering-based methods that can be done:
+// Rendering Mandelbrot fractals can take time. However, there are 
+// two rendering optimizations that can be done:
 //
 // [PIXEL REUSE]
 //   This method reuses pixels from one frame to another, causing 

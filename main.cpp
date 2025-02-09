@@ -1,8 +1,8 @@
 /**
- *    ========== Mandelbrot Fractal Zoomer ==========
- * Render Mandelbrot fractal zooms like the ones you see on 
- * YouTube! Just give rendering parameters to the program,
- * and it will start rendering your Mandelbrot movie!
+ *    ========== Mandelbrot Fractal Renderer ==========
+ * A command-line utility for rendering the Mandelbrot set.
+ * 
+ * Author: bambamboo15
  */
 #define CXXOPTS_NO_REGEX
 #include "src/cxxopts.hpp"
