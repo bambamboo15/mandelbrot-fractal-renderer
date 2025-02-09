@@ -3,4 +3,5 @@ A command-line utility to help with rendering colorful pictures of the Mandelbro
 
 ## Renders
 Here are some renders that this project made (many of these took about an hour to render):
-<video src="./renders/trampoline.mp4"></video>
+
+https://github.com/bambamboo15/mandelbrot-fractal-renderer/renders/trampoline.mp4
